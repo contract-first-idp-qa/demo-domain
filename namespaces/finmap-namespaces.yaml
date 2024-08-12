@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: finmap-prod
+  labels:
+    app : finmap
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: finmap-qa
+  labels:
+    app : finmap
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: finmap-dev
+  labels:
+    app : finmap
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: finmap-build
+  labels:
+    app : finmap
